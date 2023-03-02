@@ -1,0 +1,98 @@
+ body{
+     margin: auto;
+     padding: auto;
+     line-height: 20px;
+     background-color: rgb(140, 209, 209);
+
+ }
+ 
+/* styling for the theme */
+
+body div.theme{
+     padding: 10px;
+     float: right;
+     color: white;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ .calc_dev{
+     width: 350px;
+     padding-top: 70px;
+     padding-bottom: 70px;
+     position:relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     transition: 0.4s ease;
+     background: rgb(0, 0, 0);
+     text-align:center;
+     
+ }
+#natural_display{
+    background: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    height: 50px;
+    font-weight: 100;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+    border: 1px solid white;
+    background: rgb(192, 178, 178);
+    outline: none;
+}
+.btn:hover{
+    background-color: #001330;
+    color: white;
+    transform: scale(0.95);
+    
+}
+
+.oprbtn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+    border: 1px solid white;
+    background: white;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.oprbtn:hover{
+    background-color: rgb(250, 105, 2);
+    transform: scale(0.95);
+}
+
+#eql{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+    border: 1px solid white;
+    background: white;
+}
+#eql:hover{
+    background-color: rgb(250, 105, 2);
+    transform: scale(0.95);
+}
+
+

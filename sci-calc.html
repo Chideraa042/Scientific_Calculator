@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sci-cal</title>
+    <link href="sci-calc.css" rel="stylesheet"/>
+</head>
+<body>
+
+
+    <!-- CODE FOR CONTRAST -->
+    <div class="container">
+        
+    </div>
+    <div class="range-slide">
+        <div class="box">
+            <p>Brightness</p>
+            <div class="range">
+                <!-- Font awesome's code -->
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <input type="range" id="bright" min="40" max="200" value="100" />
+                <span class="value">100</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Contrast</p>
+            <div class="range">
+                <!-- Font awesome's code -->
+                <i class="fa-solid fa-circle-half-stroke"></i>
+                <input type="range" id="contrast" min="20" max="200" value="100" />
+                <span class="value">100</span>
+            </div>
+        </div>
+    </div>
+    <!-- END OF CONTRAST CODE-->
+
+    <div class="main-box">
+        <section class="box-one">
+
+            <!-- Calculator Display -->
+            <article class="top-box-one">
+
+               <div id="top-box-one-text">
+                <div >
+                    <center class="red-height">
+                        <small class="small-one" style="font-size: 19px">CASIO</small><br/><br/>
+                        <small class="small-two">fx-991ES PLUS</small><br/>
+                        <small class="small-three">NATURAL DISPLAY</small>
+                    </center>
+                   
+               </div> 
+               <div>
+                   <input class="small-time" type="datetime-local">
+               </div>
+            </div>
+
+               <!-- <center style="margin-top: 5px;">
+                   <code>Natural-U.P.A.M</code>
+               </center> -->
+
+                <div class="mid-box-one">
+                    <input type="text" id="calculate"/>
+                </div>
+                
+                <span class="hd-btn">
+                    <small>SHIFT</small>
+                    <small class="cred">ALPHA</small>
+                    <small></small>
+                    <small><i class="cmode">MODE</i>SETUP</small>
+                    <small class="cmode">ON</small>
+                </span>
+                <span class="box-one-bottom">
+                    <button class="btn-one"></button>
+                    <button class="btn-two"></button>
+                    <button class="btn-three">REPLAY</button>
+                    <button class="btn-four"></button>
+                    <button class="btn-five"></button>
+                </span>
+
+            </article>
+
+            <!-- Code for the button -->
+
+            <div class="box-two">
+                <span class="diff">
+                    <small>SOLVE<i class="cred">=</i> &nbsp&nbsp&nbsp&nbsp d/dx <span id="font-size-small"><i class="fa-solid fa-square"></i></span><i class="cred">&nbsp&nbsp:</i></small>
+                    <small></small>
+            
+                    <small><i>x!</i></small>
+                    <small>&Sigma; &nbsp<span id="font-size-small"><i class="fa-solid fa-square"></i></span></small>
+                </span>
+                <span class="space">
+                    <button class="space-left-left" onclick="x2()">CALC</button>
+                    <button class="space-left" onclick="x3()">&#8747;&nbsp<span id="font-size-small"><i class="fa-solid fa-square"></i></span></button>
+                    
+                    <button class="space-right" onclick="x6()">x<sup>-1</sup></button>
+                    <button class="space-right-right" onclick="x7()">log<sub>x</sub><span id="font-size-small"><i class="fa-solid fa-square"></i></span></button>
+                </span>
+                <span>
+                    <small class="font-size-small"><i class="fa-solid fa-square"></i>&nbsp&nbsp<i class="fa-regular fa-square"></i>&nbsp/&nbsp<i class="fa-regular fa-square"></i>&nbsp&nbsp</small>
+                    <small><sup>3</sup><i class="fa-solid fa-square-root-variable"></i>&nbsp&nbsp&nbsp&nbsp</small>
+                    <small>x<sup>3</sup>  <i class="cgreen">DEC</i></small>
+                    <small><sup>x</sup><i class="fa-solid fa-square-root-variable"></i>&nbsp&nbsp<i class="cgreen">HEX</i></small>
+                    <small>10<sup>x</sup>&nbsp&nbsp<i class="cgreen">BIN</i></small>
+                    <small>e<sup>x</sup>&nbsp&nbsp<i class="cgreen">OCT</i></small>
+                </span>
+                <span>
+                    <button class="font-size" onclick="x9()"><i class="fa-solid fa-square"></i>&nbsp/&nbsp<i class="fa-regular fa-square"></i></button>
+                    <button onclick="log()"><i class="fa-solid fa-square-root-variable"></i></button>
+                    <button onclick="ln()">x<sup>2</sup></button>
+                    <button>x<sup>x</sup></button>
+                    <button onclick="cot()">log</button>
+                    <button onclick="coth()">In</button>
+                </span>
+                <span>
+                    <small><i class="cpurple">[</i>&ang;<i class="cpurple">]</i>&nbsp&nbsp&nbsp&nbsp<i class="cgreen">[<i class="cred">A</i>]</i></small>
+                    <small><i class="fa-solid fa-left-long"></i>&nbsp&nbsp&nbsp&nbsp&nbsp<i class="cgreen">[<i class="cred">B</i>]</i></small>
+                    <small>Abs&nbsp&nbsp<i class="cgreen">[<i class="cred">C</i>]</i></small>
+                    <small>sin<sup>-1</sup><i class="cgreen">[<i class="cred">D</i>]</i></small>
+                    <small>cos<sup>-1</sup><i class="cgreen">[<i class="cred">E</i>]</i> </small>
+                    <small>tan<sup>-1</sup><i class="cgreen">[<i class="cred">F</i>]</i></small>
+                </span>
+                <span>
+                    <button onclick="asinh()">(&nbsp&nbsp-&nbsp&nbsp)</button>
+                    <button onclick="asin()">'&nbsp'&nbsp'</button>
+                    <button onclick="sinh()">hyp</button>
+                    <button onclick="sin()">sin</button>
+                    <button onclick="cos()">cos</button>
+                    <button onclick="cosh()">tan</button>
+                </span>
+                <span>
+                    <small>STO</small>
+                    <small><i class="fa-solid fa-left-long"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="cpurple">i</i></small>
+                    <small>&nbsp&nbsp %</small>
+                    <small>'&nbsp&nbsp&nbsp&nbsp&nbsp<i class="cred">X</i></small>
+                    <small>a &nbsp b/c &nbsp&nbsp<i class="cred">Y</i></small>
+                    <small>M-&nbsp<i class="cred">M</i></small>
+                </span>
+                <span>
+                    <button onclick="acos()">RCL</button>
+                    <button onclick="acosh()">ENG</button>
+                    <button onclick="tan()">(</button>
+                    <button onclick="tanh()">)</button>
+                    <button onclick="atan()">S&hArr;D</button>
+                    <button onclick="atanh()">M+</button>
+                </span>
+            </div>
+            
+            <div class="box-three">    
+                <span class="colosi">
+                    <small>CONST</small>
+                    <small>CONV</small>
+                    <small>CLR</small>
+                    <small>INS</small>
+                    <small>OFF</small>
+                </span>
+                <span class="colo">
+                    <button onclick="dis('7')">7</button>
+                    <button onclick="dis('8')">8</button>
+                    <button onclick="dis('9')">9</button>
+                    <button class="col" onclick="del()">Del</button>
+                    <button class="col" onclick="cls()">AC</button>
+                </span>
+                <span>
+                    <small class="cmode">[<i class="cgold">MAT</i>]</small>
+                    <small class="cmode">[<i class="cgold">VEC</i>]</small>
+                    <small>&nbsp&nbsp&nbsp&nbsp&nbsp</small>
+                    <small>nPr</small>
+                    <small>nCr</small>
+                </span>
+                <span>
+                    <button onclick="dis('4')">4</button>
+                    <button onclick="dis('5')">5</button>
+                    <button onclick="dis('6')">6</button>
+                    <button onclick="dis('*')">x</button>
+                    <button onclick="dis('/')">/</button>
+                </span>
+                <span>
+                    <small class="cmode">[<i class="cgold">STAT</i>]</small>
+                    <small class="cpurple">[<i class="cgold">CMPLX</i>]</small>
+                    <small class="cgreen">[<i class="cgold">BASE</i>]</small>
+                    <small>Pol</small>
+                    <small>&nbsp&nbsp&nbsp&nbsp&nbspRec</small>
+                </span>
+                <span>
+                    <button onclick="dis('1')">1</button>
+                    <button onclick="dis('2')">2</button>
+                    <button onclick="dis('3')">3</button>
+                    <button onclick="dis('+')">+</button>
+                    <button onclick="dis('-')">-</button>
+                </span>
+                <span>
+                    <small>Rnd</small>
+                    <small>Ran#<i class="cred">RanInt</i></small>
+                    <small>&pi;&nbsp&nbsp&nbsp&nbsp<i class="cred">e</i></small>
+                    <small>DRG</small>
+                    <small>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</small>
+                </span>
+                <span>
+                    <button onclick="dis('0')">0</button>
+                    <button onclick="dis('.')">.</button>
+                    <button id="smaller">X10<sup>x</sup></button>
+                    <button>Ans</button>
+                    <button onclick="solve()">=</button>
+                </span>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9242ff5272.js" crossorigin="anonymous"></script>
+    
+    <script src="./sci-calc.js"></script>
+
+</body>
+</html>

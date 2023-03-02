@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./brightness.css" />
+</head>
+<body>
+
+   
+
+    <div class="container">
+        <h2>Page Brightness and Contrast</h2>
+        <p>This programe has the built in function of changing the brightness and even the contrast of a page.</p>
+    </div>
+    <div class="range-slide">
+        <div class="box">
+            <p>Brightness</p>
+            <div class="range">
+                <!-- Font awesome's code -->
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <input type="range" id="bright" min="0" max="200" value="100" />
+                <span class="value">100</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Contrast</p>
+            <div class="range">
+                <!-- Font awesome's code -->
+                <i class="fa-solid fa-circle-half-stroke"></i>
+                <input type="range" id="contrast" min="0" max="200" value="100" />
+                <span class="value">100</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9242ff5272.js" crossorigin="anonymous"></script>
+   
+     <script src="./brightness.js"></script>
+</body>
+</html>

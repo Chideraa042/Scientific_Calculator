@@ -1,0 +1,322 @@
+body{
+    background-color: rgb(24, 54, 54);
+    margin: 0;
+    padding-top: 8px;
+}
+.main-box{
+    width: 25%;
+    box-shadow: 0 0 5px grey,inset 0 0 10px black;
+    height: 97vh;
+    /* border: 1px solid black; */
+    display: flex;
+    border-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 5px;
+    color: rgb(235, 209, 140);
+    font-weight: 500;
+    position:relative;
+     top: 50%;
+     left: 37%;
+     /* right: 38%; */
+} 
+
+.cred{
+    color: rgb(235, 61, 61);
+}
+.cgreen{
+    color: green;
+}yy
+.cwhite{
+    color: white;
+}
+.cblack{
+    color: black;
+}
+.cpurple{
+    color: blueviolet;
+}
+.cgold{
+    color: rgb(235, 209, 140);
+}
+.cmode{
+    color: rgb(255, 255, 255);
+}
+
+
+.main-box>.box-one{
+    width: 95%;
+    border-radius: 12px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    height: 95vh;
+    margin-top:3px;
+    /* background: linear-gradient(0deg,rgb(10, 10, 10) 20%, rgb(45, 44, 58) 40%); */
+    background-color: rgb(10, 10, 10);
+    box-shadow: inset 0 0 8px rgb(240, 240, 240);
+    
+}
+
+.main-box>.box-one>.top-box-one{
+    width: 95%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px grey,inset 0 0 10px black;
+}
+
+/* BOX TWO */
+
+.main-box>.box-one>.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.main-box>.box-one>.box-two>span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box>.box-one>.box-two>span>small{
+    font-size: 10px;
+    /* margin-top: 5px; */
+    padding-top: 5px;
+}
+.main-box>.box-one>.box-two>span.diff>small{
+    padding-top: 10px;
+}
+
+.main-box>.box-one>.box-two>span>button{
+    width: 80%;
+    height: 25px;
+    /* margin-top: 3px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px 3px;
+    font-weight: bold;
+    margin-left: 2px;
+    background-color: rgb(65, 69, 71);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.main-box>.box-one>.box-two>span>button.font-size{
+    font-size: 10px;
+}
+/* .main-box>.box-one>.box-two>span>button>span.font-size-small{
+    font-size: 7px;
+} */
+#font-size-small{
+    font-size: 7px;
+}
+.main-box>.box-one>.box-two>span>small.font-size-small{
+    font-size: 7px;
+}
+/* Code for the second row button */
+
+.main-box>.box-one>.box-two>span.space>button{
+    width: 20%;
+    /* margin: 0; */
+    /* padding: 0%; */
+}
+.main-box>.box-one>.box-two>span.space>button.space-left{
+    margin-left: -28px;
+}
+.main-box>.box-one>.box-two>span.space>button.space-right{
+    margin-right: -28px;
+}
+
+.main-box>.box-one>.box-two>span.space>button.space-left-left{
+    margin-left: -16px;
+}
+.main-box>.box-one>.box-two>span.space>button.space-right-right{
+    margin-right: -16px;
+}
+
+.main-box>.box-one>.box-two>span>button:hover{
+    transform: scale(0.95);
+}
+
+/* BOX THREE */
+
+.main-box>.box-one>.box-three{
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    flex-direction: column;
+}
+.main-box>.box-one>.box-three>span{
+    display: flex;
+    justify-content: space-around
+    
+}
+.main-box>.box-one>.box-three>span>small{
+    font-size: 10px;
+}
+.main-box>.box-one>.box-three>span.colo>button.col{
+    background-color: rgb(247, 104, 52);
+}
+.main-box>.box-one>.box-three>span.colosi{
+    padding-top: 10px;
+}
+.main-box>.box-one>.box-three>span>button{
+    width: 45px;
+    height: 30px;
+    margin-top: 3px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-left: 2px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    
+}
+.main-box>.box-one>.box-three>span>button#smaller{
+    font-size: 15px;
+}
+
+.main-box>.box-one>.box-three>span>button:hover{
+    transform: scale(0.95);
+}
+
+/* Code for the Calculator Dispaly */
+
+.main-box>.box-one>.top-box-one{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 33vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 12px;
+    margin-top: 2px;
+    /* box-shadow: inset 0 0 10px grey; */
+    border: 1px solid rgb(80, 79, 79);
+    /* box-shadow: inset 0 0 8px rgb(240, 240, 240); */
+}
+
+.main-box>.box-one>.top-box-one>#top-box-one-text{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px ;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: 0px;
+}   
+.main-box>.box-one>.top-box-one>#top-box-one-text>div>center.red-height{
+    font-size: 11.7px;
+}
+.small-one{
+    font-weight: bold;
+}
+.small-two{
+    font-weight: bold;
+    color: rgb(231, 217, 243);
+    font-style: italic;
+}
+.small-three{
+    font-weight: bold;
+    color: rgb(5, 107, 5);
+    font-style: italic;
+}
+.main-box>.box-one>.top-box-one>#top-box-one-text>div>input.small-time{
+    width: 100px;
+    background-color: rgb(235, 177, 143);
+    border-radius: 5px;
+    height: 25px;
+} 
+
+/* "Code for box-one-bottonm" and "hd-buttons" */
+
+
+.main-box>.box-one>.top-box-one>.box-one-bottom{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box>.box-one>.top-box-one>span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box>.box-one>.top-box-one>span>small{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.main-box>.box-one>.top-box-one>.box-one-bottom>button{
+    width: 95%;
+    height: 25px;
+    /* margin-top: 3px; */
+    
+    padding: 1px 3px;
+    font-weight: bold;
+    margin-left: 2px;
+    background-color: rgb(173, 172, 172);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.main-box>.box-one>.top-box-one>.box-one-bottom>button.btn-one,.main-box>.box-one>.top-box-one>.box-one-bottom>button.btn-two{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 5px;
+}
+.main-box>.box-one>.top-box-one>.box-one-bottom>button.btn-three{
+    border-radius: 40%;
+    height: 45px;
+    width: 100%;
+    font-size: 10px;
+    color: rgb(87, 84, 84);
+}
+.main-box>.box-one>.top-box-one>.box-one-bottom>button.btn-four,.main-box>.box-one>.top-box-one>.box-one-bottom>button.btn-five{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 8px;
+}
+
+.main-box>.box-one>.top-box-one>.box-one-bottom>button:hover{
+    transform: scale(0.95);
+}
+
+
+.main-box>.box-one>.top-box-one>.mid-box-one{
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    height: 15vh;
+    margin-top: 13px;
+    box-shadow: inset 0 0 8px rgb(240, 240, 240);
+    border: 1px solid black;
+}
+.main-box>.box-one>.top-box-one>.mid-box-one>input[type=text]{
+    width: 93%;
+    margin-left: 2.5%;
+    height: 13vh;
+    border: none;
+    box-shadow: 0 0 8px black;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 650px) {
+    .main-box{
+        width: 100%;
+        /* height: 100vh; */
+    }
+}
